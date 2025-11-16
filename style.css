@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+@font-face {
+  font-family: "treefig";
+  src: url("/Figtree-VariableFont_wght.ttf");
+}
+
+.div1 {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 30vw;
+  margin: auto;
+  margin-top: 40px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 18px;
+box-shadow: 8px 8px 0px  black;
+  
+}
+
+.img1 {
+  border-radius: 17px;
+}
+
+p {
+  font-family: "treefig";
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+}
+
+h1 {
+  font-family: "treefig";
+  font-size: 25px;
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+}
+
+h5 {
+  font-family: "treefig";
+  font-weight: 500;
+}
+
+.div3 {
+  font-family: "treefig";
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  border: 2px solid hsl(47, 88%, 63%);
+  border-radius: 7px;
+  width: 7vw;
+  padding: 10px;
+  background-color: hsl(47, 88%, 63%);
+  margin-top: 12px;
+}
+
+footer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap:13px;
+}
+
+.div5{
+  font-family: "treefig";
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+}
+
